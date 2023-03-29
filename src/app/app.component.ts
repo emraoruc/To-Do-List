@@ -26,7 +26,6 @@ item: any;
     ev.stopPropagation();
     ev.preventDefault();
     this.listItem = this.listItem.filter(o => o !== item);
-    console.log(this.listItem)
   }
   addItem(){
     if(this.nameModel != '' && this.nameModel != null){
