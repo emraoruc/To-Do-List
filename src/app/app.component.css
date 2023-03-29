@@ -1,0 +1,40 @@
+section.to-do-list{
+    max-width: 560px;
+    width: 100%;
+    display: block;
+    margin:20px auto;
+    text-align: center;
+
+}
+.to-do-list input{
+    width: 100%;
+}
+
+.full-width{
+    width: 100%;
+    position: relative;
+}
+
+.to-do-list button{position: absolute;right: 0; top: 15%;}
+.to-do-list .list-item{border:1px solid #d8d8d8;border-bottom:0;text-align: left;}
+.to-do-list .list-item:last-child{border-bottom:1px solid #d8d8d8;border-radius: 0 0 10px 10px;}
+.to-do-list .list-item:first-child{border-radius: 10px 10px 0 0;}
+.to-do-list .list-item span{
+    position: absolute;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+    top: 7px;
+    color: white;
+    border-radius: 5px;
+}
+.line-through {
+    text-decoration: line-through;
+}
+
+mat-list-option[aria-selected="true"] {
+    text-decoration: line-through;
+  }
